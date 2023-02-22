@@ -1,0 +1,86 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../img/link-sword-2.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+  margin: .5em 0 0 0;
+  padding: .2em .3em;
+  border-radius: .5em;
+  background: rgba(128, 128, 128, 0.6);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  height: calc(100%/3);
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  margin: 0 1em;
+  border: 1px solid white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+li {
+  opacity: .7;
+  background-size: cover;
+}
+
+#arrow {
+  background: url('../img/link-arrow.jpg') center;
+  background-size: cover;
+}
+
+#horse {
+  background: url('../img/link-horse.jpg') center;
+  background-size: cover;
+}
+
+#sword {
+  background: url('../img/link-sword.jpg') center;
+  background-size: cover;
+}
+
+#view {
+  background: url('../img/link-view.jpg') center;
+  background-size: cover;
+}
+
+#sword-2 {
+  background: url('../img/link-sword-2.jpg') center;
+  background-size: cover;
+}
