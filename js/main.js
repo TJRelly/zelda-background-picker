@@ -7,36 +7,36 @@ document.getElementById('view').onclick = viewPic
 function sword2Pic() {
   document.querySelector('body').style.background = "url('./img/link-sword-2.jpg') center"
   document.querySelector('body').style.backgroundSize = 'cover'
-  document.querySelector('h1').style.background='rgba(128,128,128, 0.8)'
+  document.querySelector('h1').style.background = 'rgba(128,128,128, 0.8)'
 }
 
 function arrowPic() {
   document.querySelector('body').style.background = "url('./img/link-arrow.jpg') center"
   document.querySelector('body').style.backgroundSize = 'cover'
   document.querySelector('h1').style.color = 'gold'
-  document.querySelector('h1').style.background='rgba(128,128,128, 0.8)'
+  document.querySelector('h1').style.background = 'rgba(128,128,128, 0.8)'
 }
 
 function horsePic() {
   document.querySelector('body').style.background = "url('./img/link-horse.jpg') center"
   document.querySelector('body').style.backgroundSize = 'cover'
-  document.querySelector('h1').style.color='lightgreen'
-  document.querySelector('h1').style.background='rgba(128,128,128, 0.8)'
+  document.querySelector('h1').style.color = 'lightgreen'
+  document.querySelector('h1').style.background = 'rgba(128,128,128, 0.8)'
 }
 
 
 function swordPic() {
   document.querySelector('body').style.background = "url('./img/link-sword.jpg') center"
   document.querySelector('body').style.backgroundSize = 'cover'
-  document.querySelector('h1').style.color='gold'
-  document.querySelector('h1').style.background='rgba(128,128,128, 0.8)'
+  document.querySelector('h1').style.color = 'gold'
+  document.querySelector('h1').style.background = 'rgba(128,128,128, 0.8)'
 }
 
 function viewPic() {
   document.querySelector('body').style.background = "url('./img/link-view.jpg') center"
   document.querySelector('body').style.backgroundSize = 'cover'
-  document.querySelector('h1').style.color='skyblue'
-  document.querySelector('h1').style.background='rgba(128,128,128, 0.8)'
+  document.querySelector('h1').style.color = 'skyblue'
+  document.querySelector('h1').style.background = 'rgba(128,128,128, 0.8)'
 }
 
 
